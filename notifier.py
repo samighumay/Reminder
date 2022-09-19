@@ -1,4 +1,3 @@
-from email import message
 import time
 from win10toast import ToastNotifier
 
