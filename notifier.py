@@ -3,8 +3,8 @@ from win10toast import ToastNotifier
 
 while True:
     toaster = ToastNotifier()
-    time.sleep(69*60)
-    toaster.show_toast("Hey Kid", "Lol you are single", duration=12, threaded=True)
+    time.sleep("interval in minutes" * 60) #//reminder interval in seconds
+    toaster.show_toast("your desired message 1", "your desired message 2", duration = 12, threaded = True)
     
 while toaster.notification_active:
     time.sleep(0.2)
